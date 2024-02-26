@@ -1,0 +1,183 @@
+.property-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f5f6; 
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .property-list-container h2 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 3.2rem; 
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .property-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .property-item {
+    background-color: #fffaf0; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+  }
+  .property-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+
+  .property-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000000; 
+    font-size: 2rem; 
+    font-weight: bold; 
+  }
+  
+  
+  .property-item p {
+    margin-bottom: 5px;
+    color: #666666; 
+  }
+  
+  .property-item p strong {
+    color: #333333; 
+    font-weight: bold; 
+  }
+  
+
+  .property-features {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .property-features li {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    color: #888888; 
+  }
+  
+  .property-features li strong {
+    color: #333333;
+    margin-right: 5px;
+  }
+  .property-image {
+    max-width: 10px; 
+    max-height: 10px; 
+    margin-right: 5px;
+  }
+  .property-item-2 {
+    float:left;
+  }
+  
+  .Image-container {
+
+    float:left;
+  }
+ 
+
+
+.filter-toggle {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.filter-toggle p {
+  font-weight: bold;
+}
+
+.filter-toggle label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.search-container {
+  margin-bottom: 10px;
+}
+
+.toggle-filter-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.toggle-filter-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.dealer-header {
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  position: relative; 
+  float: left;
+}
+
+.dealer-header p {
+  margin: 5px 0; 
+}
+
+
+.dealer-info::before {
+  content: "";
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 2px; 
+  background-color: #000000; 
+}

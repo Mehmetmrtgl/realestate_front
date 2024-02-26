@@ -1,0 +1,245 @@
+.dealer-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+  margin-bottom: 20px;
+}
+
+.dealer-container  h2 {
+  margin-bottom: 5px;
+}
+
+.form-dealer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-group,
+.property-details,
+.property-owner-type {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.input-group h2 {
+  margin-bottom: 5px;
+}
+
+.property-features{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  
+}
+
+.input-group input,
+.property-owner-type input,
+.property-details input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.property-features input{
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 1px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.image-header{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.image-upload input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+.property-images {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.image-header h2 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.property-images input[type="file"] {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.property-images input[type="file"]::file-selector-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.property-images input[type="file"]::file-selector-button:hover {
+  background-color: #45a049;
+}
+
+.property-list-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f5f6; 
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.property-list-container h2 {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  color: #000000; 
+  font-size: 3.2rem; 
+}
+
+.property-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.property-item {
+  background-color: #fffaf0; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.property-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.property-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 2rem; 
+  font-weight: bold; 
+}
+
+
+.property-item p {
+  margin-bottom: 5px;
+  color: #666666; 
+}
+
+.property-item p strong {
+  color: #333333;
+  font-weight: bold; 
+}
+
+
+.property-features {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.property-features li {
+  margin-right: 20px;
+  margin-bottom: 5px;
+  color: #888888; 
+}
+
+.property-features li strong {
+  color: #333333; 
+  margin-right: 5px;
+}
+
+.property-item {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.property-item:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.update-button{
+  position: absolute;
+  top: 2px;
+  right: 55px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+.property-details {
+  position: relative;
+  padding-right: 20px; 
+}
+
+.property-details h3 {
+  margin: 0;
+  text-align: right; 
+}
+
+.delete-button svg {
+  width: 24px;
+  height: 24px; 
+  fill: red;
+}
+
+.form-warning{
+ color: red;
+}

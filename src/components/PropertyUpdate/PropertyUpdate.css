@@ -1,0 +1,52 @@
+.property-update-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .property-update-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  
+  .property-update-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  
+  .input-wrapper label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .input-wrapper input[type="text"],
+  .input-wrapper input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .property-update-container form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    align-self: flex-start; 
+  }
+  
+  .property-update-container form button:hover {
+    background-color: #0056b3;
+  }
+  
